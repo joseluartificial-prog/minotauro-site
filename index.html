@@ -55,211 +55,71 @@
     margin: 4px;
     font-weight: 500;
   }
-  .cta-section {
-    text-align: center;
-    margin: 40px 0;
-  }
+  .cta-section { text-align: center; margin: 40px 0; }
   .play-store-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 12px;
-    background: #000;
-    color: #fff;
-    padding: 16px 30px;
-    border-radius: 12px;
-    text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: 600;
-    border: 2px solid #fff;
-    transition: all 0.3s;
+    display: inline-flex; align-items: center; gap: 12px;
+    background: #000; color: #fff; padding: 16px 30px; border-radius: 12px;
+    text-decoration: none; font-size: 1.1rem; font-weight: 600;
+    border: 2px solid #fff; transition: all 0.3s;
     box-shadow: 0 8px 25px rgba(0,0,0,0.4);
   }
-  .play-store-btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 12px 30px rgba(255,215,0,0.3);
-    border-color: #FFD700;
-  }
+  .play-store-btn:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(255,215,0,0.3); border-color: #FFD700; }
   .play-store-btn svg { width: 36px; height: 36px; }
+  .itch-btn {
+    display: inline-flex; align-items: center; gap: 12px;
+    background: #FA5C5C; color: #fff; padding: 14px 26px; border-radius: 12px;
+    text-decoration: none; font-size: 1.05rem; font-weight: 600;
+    border: 2px solid #fff; transition: all 0.3s;
+    box-shadow: 0 8px 25px rgba(250,92,92,0.3);
+    margin-left: 10px; margin-top: 14px;
+  }
+  .itch-btn:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(255,215,0,0.25); border-color: #FFD700; }
+  .itch-btn svg { width: 32px; height: 32px; }
   section {
-    background: rgba(255,255,255,0.04);
-    border-radius: 16px;
-    padding: 30px;
-    margin-bottom: 30px;
+    background: rgba(255,255,255,0.04); border-radius: 16px;
+    padding: 30px; margin-bottom: 30px;
     border: 1px solid rgba(255,255,255,0.08);
   }
-  h2 {
-    color: #FFD700;
-    font-size: clamp(1.5rem, 4vw, 2rem);
-    margin-bottom: 20px;
-    border-bottom: 2px solid rgba(255,215,0,0.3);
-    padding-bottom: 10px;
-  }
+  h2 { color: #FFD700; font-size: clamp(1.5rem, 4vw, 2rem); margin-bottom: 20px; border-bottom: 2px solid rgba(255,215,0,0.3); padding-bottom: 10px; }
   h3 { color: #FFA500; margin: 18px 0 10px; }
-  .cards-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 18px;
-    margin-top: 20px;
-  }
-  .card-item {
-    background: rgba(255,255,255,0.05);
-    border: 1px solid rgba(255,215,0,0.25);
-    padding: 20px;
-    border-radius: 12px;
-    transition: transform 0.25s, border-color 0.25s;
-  }
-  .card-item:hover {
-    transform: translateY(-5px);
-    border-color: #FFD700;
-    background: rgba(255,215,0,0.08);
-  }
-  .card-emoji {
-    font-size: 2.8rem;
-    display: block;
-    margin-bottom: 10px;
-  }
-  .card-name {
-    font-weight: 700;
-    color: #FFD700;
-    font-size: 1.15rem;
-    margin-bottom: 6px;
-  }
-  .how-to-win {
-    background: linear-gradient(135deg, rgba(255,215,0,0.1), rgba(255,165,0,0.05));
-    border: 2px solid #d4af37;
-    border-radius: 14px;
-    padding: 25px;
-    margin: 20px 0;
-    text-align: center;
-  }
+  .cards-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; margin-top: 20px; }
+  .card-item { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,215,0,0.25); padding: 20px; border-radius: 12px; transition: transform 0.25s, border-color 0.25s; }
+  .card-item:hover { transform: translateY(-5px); border-color: #FFD700; background: rgba(255,215,0,0.08); }
+  .card-emoji { font-size: 2.8rem; display: block; margin-bottom: 10px; }
+  .card-name { font-weight: 700; color: #FFD700; font-size: 1.15rem; margin-bottom: 6px; }
+  .how-to-win { background: linear-gradient(135deg, rgba(255,215,0,0.1), rgba(255,165,0,0.05)); border: 2px solid #d4af37; border-radius: 14px; padding: 25px; margin: 20px 0; text-align: center; }
   .how-to-win p { font-size: 1.15rem; }
-  .victory-text {
-    font-size: 1.8rem;
-    color: #FFD700;
-    font-weight: 800;
-    margin: 12px 0;
-  }
+  .victory-text { font-size: 1.8rem; color: #FFD700; font-weight: 800; margin: 12px 0; }
   ul { margin-left: 24px; margin-top: 10px; }
   ul li { margin-bottom: 8px; }
   .share-section { text-align: center; }
-  .share-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px;
-    margin-top: 20px;
-  }
-  .share-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 12px 22px;
-    border-radius: 10px;
-    text-decoration: none;
-    color: #fff;
-    font-weight: 600;
-    transition: transform 0.2s;
-    cursor: pointer;
-    border: none;
-    font-size: 0.95rem;
-  }
+  .share-buttons { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 20px; }
+  .share-btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 22px; border-radius: 10px; text-decoration: none; color: #fff; font-weight: 600; transition: transform 0.2s; cursor: pointer; border: none; font-size: 0.95rem; }
   .share-btn:hover { transform: translateY(-2px); }
   .share-whats { background: #25D366; }
   .share-tele { background: #0088cc; }
   .share-twitter { background: #1DA1F2; }
   .share-copy { background: #6c757d; }
   .share-fb { background: #1877F2; }
-  .link-box {
-    display: flex;
-    gap: 10px;
-    max-width: 600px;
-    margin: 20px auto 0;
-    background: rgba(0,0,0,0.4);
-    padding: 10px;
-    border-radius: 10px;
-    border: 1px solid rgba(255,215,0,0.3);
-  }
-  .link-box input {
-    flex: 1;
-    background: transparent;
-    border: none;
-    color: #FFD700;
-    font-size: 0.95rem;
-    padding: 6px 10px;
-    min-width: 0;
-    font-family: monospace;
-  }
-  .btn-copy {
-    background: #FFD700;
-    color: #000;
-    border: none;
-    padding: 10px 18px;
-    border-radius: 8px;
-    font-weight: 700;
-    cursor: pointer;
-    white-space: nowrap;
-  }
+  .link-box { display: flex; gap: 10px; max-width: 600px; margin: 20px auto 0; background: rgba(0,0,0,0.4); padding: 10px; border-radius: 10px; border: 1px solid rgba(255,215,0,0.3); }
+  .link-box input { flex: 1; background: transparent; border: none; color: #FFD700; font-size: 0.95rem; padding: 6px 10px; min-width: 0; font-family: monospace; }
+  .btn-copy { background: #FFD700; color: #000; border: none; padding: 10px 18px; border-radius: 8px; font-weight: 700; cursor: pointer; white-space: nowrap; }
   .btn-copy:hover { background: #FFA500; }
-  details {
-    background: rgba(255,255,255,0.04);
-    border: 1px solid rgba(255,215,0,0.2);
-    border-radius: 10px;
-    padding: 14px 18px;
-    margin-bottom: 10px;
-    cursor: pointer;
-  }
+  details { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,215,0,0.2); border-radius: 10px; padding: 14px 18px; margin-bottom: 10px; cursor: pointer; }
   details[open] { background: rgba(255,215,0,0.06); }
-  summary {
-    font-weight: 700;
-    color: #FFD700;
-    list-style: none;
-    cursor: pointer;
-  }
+  summary { font-weight: 700; color: #FFD700; list-style: none; cursor: pointer; }
   summary::-webkit-details-marker { display: none; }
   summary::before { content: "▸ "; color: #FFA500; }
   details[open] summary::before { content: "▾ "; }
-  footer {
-    text-align: center;
-    padding: 30px 20px;
-    color: #aaa;
-    font-size: 0.9rem;
-    border-top: 1px solid rgba(255,255,255,0.08);
-    margin-top: 40px;
-  }
+  footer { text-align: center; padding: 30px 20px; color: #aaa; font-size: 0.9rem; border-top: 1px solid rgba(255,255,255,0.08); margin-top: 40px; }
   footer a { color: #d4af37; text-decoration: none; }
-  .pegi-badge {
-    display: inline-block;
-    background: #000;
-    color: #fff;
-    border: 2px solid #fff;
-    padding: 6px 14px;
-    border-radius: 6px;
-    font-weight: 800;
-    font-size: 1.1rem;
-    margin: 10px 6px;
-  }
-  .toast {
-    position: fixed;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #28a745;
-    color: #fff;
-    padding: 14px 28px;
-    border-radius: 10px;
-    font-weight: 700;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.5);
-    opacity: 0;
-    transition: opacity 0.35s;
-    z-index: 9999;
-    pointer-events: none;
-  }
+  .pegi-badge { display: inline-block; background: #000; color: #fff; border: 2px solid #fff; padding: 6px 14px; border-radius: 6px; font-weight: 800; font-size: 1.1rem; margin: 10px 6px; }
+  .toast { position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%); background: #28a745; color: #fff; padding: 14px 28px; border-radius: 10px; font-weight: 700; box-shadow: 0 8px 25px rgba(0,0,0,0.5); opacity: 0; transition: opacity 0.35s; z-index: 9999; pointer-events: none; }
   .toast.show { opacity: 1; }
 </style>
 </head>
 <body>
 <div class="container">
-
   <header>
     <div>
       <span class="tag">⚔️ Estrategia</span>
@@ -275,17 +135,16 @@
       <span class="pegi-badge">USK 12</span>
     </div>
   </header>
-
   <div class="cta-section">
     <a class="play-store-btn" href="https://play.google.com/store/apps/details?id=org.love2d.minotauro" target="_blank" rel="noopener">
       <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path fill="#00D2FF" d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1z"/><path fill="#00E676" d="M104.6 13l-54.8 94.9 275.6 159.2 60.1-60.1L104.6 13z"/><path fill="#FFC107" d="M49.8 404.1l54.8-94.9-60.1-60.1c-7.8-7.8-12.4-19-12.4-30.6v246.2c0 11.6 4.6 22.8 12.4 30.6l5.3-91.1z"/><path fill="#FF3D00" d="M325.3 277.6l-120.9 70 166.9 96.4c15.7 9.1 34.7 3.4 41.9-13.3L385.4 295l-60.1-17.4z"/><path fill="#3DDC84" d="M104.6 499l220.7-127.4L204.4 347.6 49.8 404.1c-4.8 7.8-7.3 16.7-7 25.7.2 8.9 2.7 17.8 7.5 25.7L104.6 499z"/></svg>
-      <div>
-        <div style="font-size:0.75rem;font-weight:400;opacity:0.8;">DISPONIBLE EN</div>
-        <div>Google Play</div>
-      </div>
+      <div><div style="font-size:0.75rem;font-weight:400;opacity:0.8;">DISPONIBLE EN</div><div>Google Play</div></div>
+    </a>
+    <a class="itch-btn" href="https://joseluartificial-prog.itch.io/minotauro" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M3.13 3.554C2.492 3.81 2 4.286 2 5v14c0 .713.492 1.19 1.13 1.446C3.77 20.703 6.81 22 12 22s8.23-1.297 8.87-1.554C21.508 20.19 22 19.713 22 19V5c0-.714-.492-1.19-1.13-1.446C20.23 3.297 17.19 2 12 2S3.77 3.297 3.13 3.554zM5.5 10c.333 0 .667.023 1 .07V15h-1c-.554 0-1-.023-1-.5v-4c0-.477.446-.5 1-.5zm13 0c.554 0 1 .023 1 .5v4c0 .477-.446.5-1 .5h-1v-4.93c.333-.047.667-.07 1-.07zm-8 1.5c.554 0 1 .5 1 1.25V15h1v-2.25c0-.75.446-1.25 1-1.25s1 .5 1 1.25V15h1v-2.25c0-.75.446-1.25 1-1.25V9h1v2.25c0-1.25-1.343-2.25-3-2.25s-3 1-3 2.25z"/></svg>
+      <div><div style="font-size:0.75rem;font-weight:400;opacity:0.9;">VER FICHA EN</div><div>itch.io · Gratis o Dona</div></div>
     </a>
   </div>
-
   <section>
     <h2>🏆 Cómo ganar</h2>
     <div class="how-to-win">
@@ -294,63 +153,20 @@
       <p style="color:#ddd;">Sé el primero en completar tu ejército de Amazonas sobre la mesa y derrota a tu rival con estrategia y astucia.</p>
     </div>
   </section>
-
   <section>
     <h2>🎴 Cartas del juego</h2>
     <p>Cada carta tiene un papel único. Conócelas todas y domina la mesa:</p>
     <div class="cards-grid">
-
-      <div class="card-item">
-        <span class="card-emoji">👸</span>
-        <div class="card-name">Amazonas</div>
-        <p>Guerreras legendarias. Coloca <strong>5 de distintos colores</strong> y gana la partida.</p>
-      </div>
-
-      <div class="card-item">
-        <span class="card-emoji">⚔️</span>
-        <div class="card-name">Espada</div>
-        <p>Elimina al <strong>Heleno</strong> que esté protegiendo a una Amazona del mismo color.</p>
-      </div>
-
-      <div class="card-item">
-        <span class="card-emoji">🛡️</span>
-        <div class="card-name">Escudo</div>
-        <p>Protege a tu Amazona evitando que sea eliminada por ataques directos.</p>
-      </div>
-
-      <div class="card-item">
-        <span class="card-emoji">🌀</span>
-        <div class="card-name">Laberinto</div>
-        <p>Escudo protector místico. Esquiva un ataque enemigo usando el poder del Laberinto.</p>
-      </div>
-
-      <div class="card-item">
-        <span class="card-emoji">🐎</span>
-        <div class="card-name">Centauro</div>
-        <p>Elimina a los <strong>Helenos sin escudo</strong>. Limpia rápidamente las defensas rivales.</p>
-      </div>
-
-      <div class="card-item">
-        <span class="card-emoji">🐂</span>
-        <div class="card-name">Minotauro</div>
-        <p>La carta más devastadora. ¡Elimina a los <strong>Helenos INCLUSO con escudo</strong>!</p>
-      </div>
-
-      <div class="card-item">
-        <span class="card-emoji">🪢</span>
-        <div class="card-name">Cuerda de los Dioses</div>
-        <p>Resucita una carta caída y devuélvela a la batalla. ¡Cambia el rumbo del juego!</p>
-      </div>
-
-      <div class="card-item">
-        <span class="card-emoji">⭐</span>
-        <div class="card-name">Modo 5 Inmortales</div>
-        <p>Desafío estratégico avanzado para los más expertos. ¿Te atreves con las leyendas?</p>
-      </div>
-
+      <div class="card-item"><span class="card-emoji">👸</span><div class="card-name">Amazonas</div><p>Guerreras legendarias. Coloca <strong>5 de distintos colores</strong> y gana la partida.</p></div>
+      <div class="card-item"><span class="card-emoji">⚔️</span><div class="card-name">Espada</div><p>Elimina al <strong>Heleno</strong> que esté protegiendo a una Amazona del mismo color.</p></div>
+      <div class="card-item"><span class="card-emoji">🛡️</span><div class="card-name">Escudo</div><p>Protege a tu Amazona evitando que sea eliminada por ataques directos.</p></div>
+      <div class="card-item"><span class="card-emoji">🌀</span><div class="card-name">Laberinto</div><p>Escudo protector místico. Esquiva un ataque enemigo usando el poder del Laberinto.</p></div>
+      <div class="card-item"><span class="card-emoji">🐎</span><div class="card-name">Centauro</div><p>Elimina a los <strong>Helenos sin escudo</strong>. Limpia rápidamente las defensas rivales.</p></div>
+      <div class="card-item"><span class="card-emoji">🐂</span><div class="card-name">Minotauro</div><p>La carta más devastadora. ¡Elimina a los <strong>Helenos INCLUSO con escudo</strong>!</p></div>
+      <div class="card-item"><span class="card-emoji">🪢</span><div class="card-name">Cuerda de los Dioses</div><p>Resucita una carta caída y devuélvela a la batalla. ¡Cambia el rumbo del juego!</p></div>
+      <div class="card-item"><span class="card-emoji">⭐</span><div class="card-name">Modo 5 Inmortales</div><p>Desafío estratégico avanzado para los más expertos. ¿Te atreves con las leyendas?</p></div>
     </div>
   </section>
-
   <section>
     <h2>✨ Características del juego</h2>
     <ul>
@@ -362,56 +178,28 @@
       <li><strong>👨‍👩‍👧‍👦 Para todos los públicos:</strong> clasificación oficial PEGI 7 / USK 12+</li>
     </ul>
   </section>
-
   <section>
     <h2>❓ Preguntas frecuentes</h2>
-    <details open>
-      <summary>¿Qué necesito para jugar?</summary>
-      <p>Solo un móvil o tablet Android e internet opcional. Descarga la app desde Google Play Store y empieza a jugar inmediatamente.</p>
-    </details>
-    <details>
-      <summary>¿Cuál es la edad recomendada?</summary>
-      <p>Clasificación oficial IARC: <strong>PEGI 7</strong> (Europa) / <strong>USK 12</strong> (Alemania). Juego apto para toda la familia.</p>
-    </details>
-    <details>
-      <summary>¿Se puede jugar sin conexión?</summary>
-      <p>Sí, el modo partida está disponible offline. Los anuncios y tablas online requieren conexión.</p>
-    </details>
-    <details>
-      <summary>¿Tiene compras dentro de la app?</summary>
-      <p>No hay mecánicas de pago obligatorias. El juego se disfruta al 100% de forma gratuita.</p>
-    </details>
-    <details>
-      <summary>¿Dónde está la política de privacidad?</summary>
-      <p>Puedes leerla <a href="privacy-policy.html" style="color:#FFD700;">aquí</a>. Cumple con GDPR, LOPDGDD, COPPA y todas las normativas de Google Play.</p>
-    </details>
+    <details open><summary>¿Qué necesito para jugar?</summary><p>Solo un móvil o tablet Android e internet opcional. Descarga la app desde Google Play Store y empieza a jugar inmediatamente.</p></details>
+    <details><summary>¿Cuál es la edad recomendada?</summary><p>Clasificación oficial IARC: <strong>PEGI 7</strong> (Europa) / <strong>USK 12</strong> (Alemania). Juego apto para toda la familia.</p></details>
+    <details><summary>¿Se puede jugar sin conexión?</summary><p>Sí, el modo partida está disponible offline. Los anuncios y tablas online requieren conexión.</p></details>
+    <details><summary>¿Tiene compras dentro de la app?</summary><p>No hay mecánicas de pago obligatorias. El juego se disfruta al 100% de forma gratuita.</p></details>
+    <details><summary>¿Dónde está la política de privacidad?</summary><p>Puedes leerla <a href="privacy-policy.html" style="color:#FFD700;">aquí</a>. Cumple con GDPR, LOPDGDD, COPPA y todas las normativas de Google Play.</p></details>
   </section>
-
   <section class="share-section">
     <h2>📣 ¡Comparte Minotauro con tus amigos!</h2>
     <p>Ayúdame a crecer compartiendo el juego con quien sabes que le gustará la estrategia con cartas y la mitología 🏛️⚔️</p>
-
     <div class="share-buttons">
-      <a class="share-btn share-whats" target="_blank" href="https://wa.me/?text=¡Juega%20a%20MINOTAURO%2C%20el%20juego%20de%20estrategia%20con%20cartas%20de%20mitolog%C3%ADa%20griega%21%20Re%C3%BAne%205%20Amazonas%20para%20ganar.%20Desc%C3%A1rgalo%20gratis%3A%20https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dorg.love2d.minotauro">
-        💬 WhatsApp
-      </a>
-      <a class="share-btn share-tele" target="_blank" href="https://t.me/share/url?url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dorg.love2d.minotauro&text=Minotauro%20-%20Juego%20de%20estrategia%20con%20cartas%20de%20mitolog%C3%ADa%20griega">
-        ✈️ Telegram
-      </a>
-      <a class="share-btn share-twitter" target="_blank" href="https://twitter.com/intent/tweet?text=%C2%A1Prueba%20Minotauro%2C%20el%20juego%20de%20cartas%20de%20mitolog%C3%ADa%20griega%21%20Re%C3%BAne%205%20Amazonas%20para%20ganar.%20Descarga%20gratuita%3A&url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dorg.love2d.minotauro&hashtags=Minotauro%2CJuegoCartas%2CEstrategia%2CMitolog%C3%ADaGriega">
-        🐦 X / Twitter
-      </a>
-      <a class="share-btn share-fb" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dorg.love2d.minotauro">
-        📘 Facebook
-      </a>
+      <a class="share-btn share-whats" target="_blank" href="https://wa.me/?text=¡Juega%20a%20MINOTAURO%2C%20el%20juego%20de%20estrategia%20con%20cartas%20de%20mitolog%C3%ADa%20griega%21%20Re%C3%BAne%205%20Amazonas%20para%20ganar.%20Desc%C3%A1rgalo%20gratis%3A%20https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dorg.love2d.minotauro">💬 WhatsApp</a>
+      <a class="share-btn share-tele" target="_blank" href="https://t.me/share/url?url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dorg.love2d.minotauro&text=Minotauro%20-%20Juego%20de%20estrategia%20con%20cartas%20de%20mitolog%C3%ADa%20griega">✈️ Telegram</a>
+      <a class="share-btn share-twitter" target="_blank" href="https://twitter.com/intent/tweet?text=%C2%A1Prueba%20Minotauro%2C%20el%20juego%20de%20cartas%20de%20mitolog%C3%ADa%20griega%21%20Re%C3%BAne%205%20Amazonas%20para%20ganar.%20Descarga%20gratuita%3A&url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dorg.love2d.minotauro&hashtags=Minotauro%2CJuegoCartas%2CEstrategia%2CMitolog%C3%ADaGriega">🐦 X / Twitter</a>
+      <a class="share-btn share-fb" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dorg.love2d.minotauro">📘 Facebook</a>
     </div>
-
     <div class="link-box">
       <input id="url-input" readonly value="https://play.google.com/store/apps/details?id=org.love2d.minotauro" />
       <button class="btn-copy" onclick="copyLink()">📋 COPIAR ENLACE</button>
     </div>
   </section>
-
   <footer>
     <p>© 2026 Jose Luis Perez Gisbert · Minotauro</p>
     <p style="margin-top:10px;">
@@ -419,26 +207,23 @@
       &nbsp;·&nbsp;
       <a href="https://play.google.com/store/apps/details?id=org.love2d.minotauro" target="_blank" rel="noopener">▶️ Google Play</a>
       &nbsp;·&nbsp;
+      <a href="https://joseluartificial-prog.itch.io/minotauro" target="_blank" rel="noopener">🎮 itch.io</a>
+      &nbsp;·&nbsp;
       <a href="https://github.com/joseluartificial-prog" target="_blank" rel="noopener">🐙 GitHub</a>
     </p>
     <p style="margin-top:18px; opacity:0.6;">Juego publicado en Google Play Store · Desarrollado con Love2D</p>
   </footer>
 </div>
-
 <div class="toast" id="toast">✅ ¡Enlace copiado al portapapeles!</div>
-
 <script>
 function copyLink() {
   const inp = document.getElementById('url-input');
-  inp.select();
-  inp.setSelectionRange(0, 99999);
-  try {
-    navigator.clipboard.writeText(inp.value);
-  } catch(e) { document.execCommand('copy'); }
+  inp.select(); inp.setSelectionRange(0, 99999);
+  try { navigator.clipboard.writeText(inp.value); } catch(e) { document.execCommand('copy'); }
   const t = document.getElementById('toast');
   t.classList.add('show');
   setTimeout(() => t.classList.remove('show'), 2000);
 }
 </script>
 </body>
-  </html>
+            </html>
